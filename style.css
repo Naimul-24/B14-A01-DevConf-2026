@@ -344,3 +344,45 @@ section.hero button {
   background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
   border-color: transparent;
 }
+
+.footer {
+  padding: 40px 80px;
+  background: #fff;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  color: #555;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #000;
+}
+
+hr {
+  margin: 25px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.copyright {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
