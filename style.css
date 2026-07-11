@@ -92,7 +92,6 @@ section.hero button {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #e40f0f;
 }
 
 #speaker-heading {
@@ -116,3 +115,4 @@ section.hero button {
 .speaker p small {
     color: #1d4ed8FF;
 }
+
