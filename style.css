@@ -26,7 +26,7 @@ nav {
     margin: 0 auto;
 }
 
-ul {
+nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,13 +94,13 @@ section.hero button {
     align-items: center;
 }
 
-#speaker-heading {
+#speaker-heading, #pricing-heading h2{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 3rem;
-    margin: 4rem 0;
+    margin-top: 10rem;
 }
 .speakers-list {
   display : grid;
@@ -108,7 +108,7 @@ section.hero button {
   grid-template-rows: repeat(2, 1fr);
   gap: 3rem;
   max-width: 1435.5px;
-  margin: 0 auto;
+  margin: 8rem auto;
   
 }
 
@@ -116,3 +116,81 @@ section.hero button {
     color: #1d4ed8FF;
 }
 
+#pricing-heading p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 4rem;
+    margin-top: 0.8rem;
+}
+
+.pricing-content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8 px;
+   
+    
+}
+
+.card{
+    width:340px;
+    background:rgba(255, 255, 255, 0.979);
+    padding:30px;
+    border-radius:15px;
+    border:1px solid #ddd;
+}
+
+.pro{
+    background:#0d1025;
+    color:#fff;
+}
+
+.card h4{
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.card h1{
+    font-size:48px;
+    margin-bottom:5px;
+}
+
+.card p{
+    color:gray;
+    margin-bottom:25px;
+}
+
+.pro p{
+    color:#bbb;
+    
+}
+
+.card ul{
+    list-style:none;
+    margin-bottom:30px;
+}
+
+.card ul li{
+    margin:12px 0;
+}
+
+.card button{
+    width:100%;
+    padding:14px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    background:white;
+    cursor:pointer;
+    color:black;
+}
+
+.pro button{
+    background:#1d6cff;
+    color:white;
+    border:none;
+    margin-top:50px;
+}
