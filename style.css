@@ -87,3 +87,32 @@ section.hero button {
     top: 180px;
     max-width: 200px;
 }
+
+.speakers-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e40f0f;
+}
+
+#speaker-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    margin: 4rem 0;
+}
+.speakers-list {
+  display : grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3rem;
+  max-width: 1435.5px;
+  margin: 0 auto;
+  
+}
+
+.speaker p small {
+    color: #1d4ed8FF;
+}
