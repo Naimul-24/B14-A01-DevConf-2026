@@ -345,6 +345,10 @@ section.hero button {
   border-color: transparent;
 }
 
+/* AI prompt section start */
+
+/* footer section start */
+
 .footer {
   padding: 40px 80px;
   background: #fff;
@@ -371,9 +375,7 @@ section.hero button {
   text-decoration: none;
 }
 
-.social-links a:hover {
-  color: #000;
-}
+
 
 hr {
   margin: 25px 0;
@@ -386,3 +388,4 @@ hr {
   color: #777;
   font-size: 14px;
 }
+/* footer section end */
